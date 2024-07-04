@@ -3,7 +3,10 @@ import { history, flatMultiLevelRoutes } from "./helper"
 import routeSettings from "@/config/route"
 
 const Layouts = () => import("@/layouts/index.vue")
-
+/**
+ * TODO: iframe 嵌套路由
+ * 目前暂时不支持 iframe 嵌套路由，后续考虑支持
+ * /
 /**
  * 常驻路由
  * 除了 redirect/403/404/login 等隐藏页面，其他页面建议设置 Name 属性
